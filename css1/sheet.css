@@ -1,0 +1,95 @@
+body{
+	height: 100%;
+	font-family: cursive;
+	padding: 10px;
+}
+header{
+	text-transform: uppercase;
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
+	padding-bottom: 20px;
+	font-family: sans-serif;
+}
+.right{
+	display: inline-block;
+	width: 60%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
+nav a{
+	display: inline-block;
+	width: 18%;
+	padding: 12px 4px;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 4%;
+	border-radius: 5px;
+	background: rgba(255,255,255,0.3);
+	color: #000000;
+}
+.home{
+	background-image: url("../images1/home.jpg");
+	color: #FFFFFF;
+}
+.con{
+	background-image: url("../images1/cont.png");
+	max-width: 100%;
+	opacity: 2;
+}
+.abo{
+	background-image: url("../images1/abo.jpg");
+	max-height: 100%;
+}
+.achie{
+	background-image: url("../images1/achie.jpg");
+	color: #FFFFFF;
+
+}
+nav a:hover{
+	background: #FFFFFF;
+	color: #891247;
+	transition: width 2s height 4s;
+	padding: 15px 20px;
+	transform-style: ease;
+	transition-duration: .8s;
+}
+.icon img{
+	display: inline-block;
+	height: 50px;
+	margin: 10px;
+	background: rgba(255,255,255,0.1);
+}
+main img{
+	display: inline-block;
+	width: 20%;
+	float: left;
+	background-color: rgba(0,0,255,0.3);
+	padding: 10px;
+	border: 5px line;
+	border-radius: 15px;
+	margin : 25px;
+}
+main img:hover{
+	width: 22%;
+	transform-style: ease;
+	transition-duration: 2s;
+}
+footer{
+	clear: both;
+	text-align: center;
+	float: bottom;
+	padding: 10px;
+	margin-top: 440px;
+}
+.conright{
+	display: inline-block;
+	width: 60%;
+	float: left;
+	font-size: 180%;
+	padding: 10px;
+	text-align: center;
+}
+.realnav{
+	color: #cd4589;
+}
